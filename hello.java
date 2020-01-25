@@ -7,6 +7,7 @@ public class hello {
 
       String Name = myObj.nextLine();
       System.out.println("Hello " + Name + "!");
+      
     }
 
 }
