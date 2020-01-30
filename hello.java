@@ -2,8 +2,8 @@
 public class hello {
 
     public static void main(String[] args) {
-
-      System.out.println("Hello World!");
+    	double grade = 99;
+    	grade = grade + grade;
+    	System.out.println(grade);
     }
-
 }
