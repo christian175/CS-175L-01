@@ -10,8 +10,6 @@ public class CarDecisionV2 {
 	    System.out.print("Enter info for hybrid car: "); //ToyotaPrius,31000,30
 	    String hybridCar = input.nextLine();
 	    String[] hybrid = hybridCar.split(",");
-	    //String regMakeModel = regCar.substring(0, 13);
-	    //String hybridMakeModel = hybridCar.substring(0,11);
 	    double regCarCost = Double.parseDouble(regular[1]);
 	    double regMPG = Double.parseDouble(regular[2]);
 	    double hybridCarCost = Double.parseDouble(hybrid[1]);
