@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class CarDecisionV2 {
 
 	public static void main(String[] args) {
-			//taking in input for calculations
+	//taking in input for calculations
 	    Scanner input = new Scanner(System.in);
 	    System.out.print("Enter info for regular car: ");//ToyotaCorolla,28000,20
 	    String regCar = input.nextLine();
@@ -22,15 +22,15 @@ public class CarDecisionV2 {
 	    double regCarTotal;
 	    double hybridTotal;
 	    for (int i = 1; i < 6 ; i++ ) {
-        //calculating cost each year and printing values
+        	//calculating cost each year and printing values
 	    	regCarTotal = regCarCost + i * (regGas);
 	    	hybridTotal = hybridCarCost + i * (hybridGas);
 	    	System.out.println("The cost to buy and use a " + regular[0] + " for " + i + " year(s) is " + regCarTotal);
 	        System.out.println("The cost to buy and use a " + hybrid[0] + " for " + i + " year(s) is " + hybridTotal);
 	        if (hybridTotal < regCarTotal && i == 5) {
 	            System.out.println("The " + hybrid[0] + " pays back after 5 years");
-	          }
+	        }
 	    }
 
-		}
+	}
 }
