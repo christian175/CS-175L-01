@@ -1,17 +1,16 @@
-
+import java.util.Scanner;
 public class hello {
 
     public static void main(String[] args) {
-    	String firstName = "Car";
-    	String name = "Cart";
-    	if(firstName.compareTo(name) > 0) {
-    		System.out.println("the first is greater than the second");
+    	int year = 0;
+    	double balance = 10000;
+    	double target = 3 * balance;
+    	while (balance < target) {
+    		balance = balance + (balance * .1);
+    		year++;
+    		System.out.println("Year: " + year + "Balance: " + balance);
     	}
-    	else if (firstName.compareTo(name)< 0){
-    		System.out.println("The first is less than the second");
-    	}
-    	else {
-    		System.out.println("they are the same");
-    	}
+    	
+    	System.out.println("after " + year + " years, the balance is doubled");
     }
 }
