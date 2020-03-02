@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class grocerydecisionV2 {
+public class groceryDecisionV2 {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -9,7 +9,7 @@ public class grocerydecisionV2 {
 			String in = input.nextLine();
 			double price = 0;
 			try {
-				price = Double.parseDouble(in);
+				price = Double.parseDouble(in);			    		
 			} catch (NumberFormatException ex) {
 				System.out.println("Error, that is not a valid input.");
 			}
