@@ -30,7 +30,7 @@ public class HousePainting {
 		peakSides = peakSides * 2;
 		int windowSize =  windowNum * windowHeight * windowLength;
 		int doorSize =  doorNum * doorLength * doorHeight;
-		int SidesSize = peakSides + noPeakSides;
+		int sidesSize = peakSides + noPeakSides;
 		int noPaint = windowSize + doorSize;
 		int paintArea = sidesSize - noPaint;
 		int totalCost =  paintArea * painterCost;

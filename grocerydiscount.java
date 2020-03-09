@@ -1,4 +1,4 @@
-package grocerydiscount;
+
 import java.util.Scanner;
 public class grocerydiscount {
 

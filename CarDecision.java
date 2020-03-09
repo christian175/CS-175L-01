@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class cardecision {
+public class CarDecision {
 
 	public static void main(String[] args) {
 		//taking in input for calculations
