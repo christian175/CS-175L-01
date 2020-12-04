@@ -24,6 +24,7 @@ public class HousePainting {
 		int doorLength = input.nextInt();
 		System.out.print("Input painter rate per square unit: ");
 		int painterCost = input.nextInt();
+		input.close();
 		//performing the necessary calculations to find the price
 		int noPeakSides =  houseLength *  houseWidth * 2;
 		int peakSides = noPeakSides + ((1/2)*(houseLength*(houseHeight -  houseWidth)));

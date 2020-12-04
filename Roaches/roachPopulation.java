@@ -1,4 +1,4 @@
-
+package Roaches;
 public class roachPopulation {
 	public int roachNum;
 	

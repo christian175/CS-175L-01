@@ -56,6 +56,7 @@ public class heatindex {
 				System.out.println("Extreme danger");
 			}
 		}
+		input.close();
 	}
 
 }

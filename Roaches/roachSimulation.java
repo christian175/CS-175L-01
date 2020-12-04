@@ -1,3 +1,4 @@
+package Roaches;
 import java.util.Scanner;
 public class roachSimulation {
 
@@ -16,6 +17,7 @@ public class roachSimulation {
 			roaches = bugs.getRoaches();
 			System.out.println("The Roach population after cycle " + i + " " + (40 + (10 * i)) + " percent spraying is " + roaches);
 		}
+	in.close();
 	}
 
 }
